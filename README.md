@@ -7,7 +7,7 @@ It is designed for beginners.
 <h3>Requirements</h3>
 <ul>Get your google captcha sitekey and secret for your website from https://www.google.com/recaptcha/admin/create . make sure that it is "captcha v2" and "i am not robot" and put them in database.php.</ul>   
 <ul>Import that SQL.sql file in the phpmyadmin on your hosting control panel.</ul>   
-<ul>Put all required information about your SQL database in the SQl.sql.</ul>   
+<ul>Put all required information about your SQL database in the databas.php.</ul>   
 panel.</ul>   
 <ul>and you are ready to Go</ul>   
 
