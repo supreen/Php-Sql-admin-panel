@@ -30,5 +30,5 @@ Thankyou
 ![Image of Admin Panel](https://suprin.sobdar.com/references/adlogin.JPG)
 
 <h2> Index.php </h2>
-  
- ![Image of Index](https://suprin.sobdar.com/references/ad2.JPG)
+
+ ![Image of Index](https://raw.githubusercontent.com/supreen/php-admin-panel/master/login/images/index.JPG)
