@@ -1,15 +1,21 @@
-# PHP-SQL-admin-panel
-This is a simple PHP, Jquery, ajax admin panel for small softwares and website panels. it uses google captcha. it is depended on sql,[After Update, all data is kept in one file named database.php]
-For Admin panel without SQL please visit <li> https://github.com/supreen/php-admin-panel </li>
-It is designed for beginners.
+# php-admin-panel
+This is a simple PHP, Jquery, ajax admin panel for small softwares and website panels. it uses google captcha. it is not depended on sql, but it keeps data in every file [After Update, all data is kept in one file named credential.php]
 
+It is designed for beginners. the best thing about it is that, it doesn't require sql
 
-<h3>Requirements</h3>
-<ul>Get your google captcha sitekey and secret for your website from https://www.google.com/recaptcha/admin/create . make sure that it is "captcha v2" and "i am not robot" and put them in database.php.</ul>   
-<ul>Import that SQL.sql file in the phpmyadmin on your hosting control panel.</ul>   
-<ul>Put all required information about your SQL database in the databas.php.</ul>   
-panel.</ul>   
-<ul>and you are ready to Go</ul>   
+Please Change the Admin and Password in all file. (they are on the top). [after update they are in one file named credential.php]
+And, Please Use Your Google Captcha Sitekey and Secret in Admin.php and Process_data.php. [after update they are in one file named credential.php]
+
+Copy the Index.php file and create as many page as you want.
+
+<h1> Updated on 13/08/2021 </h1>
+<ul> UI improved </ul>
+<ul> background and Logo added </ul>
+<ul> Now you need to put Admin name, Password, Sitekey, SecretKey just in one file called Credential.php </ul>
+<ul> Navbar can be updated via navbar.php too </ul>
+<ul> Replace logo.png with any logo of your choice </ul>
+<ul> Change the background image via \login\images\bg-01.jpg </ul>
+  
 
 
 Thankyou 
@@ -31,4 +37,4 @@ Thankyou
 
 <h2> Index.php </h2>
   
- ![Image of Index](https://raw.githubusercontent.com/supreen/php-admin-panel/master/login/images/index.JPG)
+ ![Image of Index](https://suprin.sobdar.com/references/ad2.JPG)

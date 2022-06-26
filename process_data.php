@@ -1,6 +1,6 @@
 <?php
 
-
+include 'captcha.php';
 
 
 //THIS ADMIN SYSTEM IS DESIGNED BY SUPRIN AZIZ TALPUR
@@ -8,11 +8,9 @@
 
 
 //theusername and password 
-include 'credential.php';
 
 
-$setadmin=test_input($setadmin);
-$setpass=test_input($setpass);
+
 
 
 
@@ -151,12 +149,33 @@ if(isset($_POST["admin_name"]))
   $invalid_error = 'Invalid Username or Password';
  }
 
- if($admin_name_error == '' && $password_error == '' && $captcha_error == '' && $admin==$setadmin && $pass==$setpass)
+//access and authencity from database
+include 'db.php';
+$sql = "SELECT user, pass FROM control WHERE pass='".$pass."' AND user='".$admin."' ";
+
+$result = $con->query($sql);
+
+if ($result->num_rows > 0) {
+while($row = $result->fetch_assoc()) {
+
+	$authpass=$row["pass"];
+	$authadmin=$row["user"];
+}
+  }
+ else {
+
+}
+$con->close();
+//continued code
+
+
+
+ if($admin_name_error == '' && $password_error == '' && $captcha_error == '' && $admin==$authadmin && $pass==$authpass)
  {
 
 
-$_SESSION["admin@"] = $setadmin;
-$_SESSION["pass@"] = $setpass;
+$_SESSION["admin@"] = $authadmin;
+$_SESSION["pass@"] = $authpass;
 	 
 	 
   $data = array(

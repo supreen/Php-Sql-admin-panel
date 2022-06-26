@@ -1,85 +1,49 @@
 <?php 
 
-echo "
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
-</style>
-</head>
-<body>
-
-
-<style>
-.navbar {
-  overflow: hidden;
-  background-color: #333; 
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.subnav {
-  float: left;
-  overflow: hidden;
-}
-
-.subnav .subnavbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: red;
-}
-
-.subnav-content {
-  display: none;
-  position: absolute;
-  left: 0;
-  background-color: red;
-  width: 100%;
-  z-index: 1;
-}
-
-.subnav-content a {
-  float: left;
-  color: white;
-  text-decoration: none;
-}
-
-.subnav-content a:hover {
-  background-color: #eee;
-  color: black;
-}
-
-.subnav:hover .subnav-content {
-  display: block;
-}
-</style>
-";
+echo '
+<nav class="nav">
+            <div> 
+			<a href="#" class="nav_logo"> 
+			<i class="bx bx-layer nav_logo-icon"></i> 
+			<span class="nav_logo-name">Admin Panel</span> </a>
+			
+            <div class="nav_list"> 
+			<a href="#" class="nav_link active"> 
+			<i class="bx bx-grid-alt nav_icon"></i> 
+			<span class="nav_name">Dashboard</span> </a> 
+			
+			<a href="#" class="nav_link"> 
+			<i class="bx bx-user nav_icon"></i> 
+			<span class="nav_name">Users</span> </a> 
+			
+			<a href="#" class="nav_link"> 
+			<i class="bx bx-message-square-detail nav_icon">
+			</i> <span class="nav_name">Messages</span> </a> 
+			
+			<a href="#" class="nav_link"> 
+			<i class="bx bx-bookmark nav_icon"></i> 
+			<span class="nav_name">Bookmark</span></a> 
+			
+			<a href="#" class="nav_link"> 
+			<i class="bx bx-folder nav_icon"></i> 
+			<span class="nav_name">Files</span></a> 
+			
+			<a href="#" class="nav_link"> 
+			<i class="bx bx-bar-chart-alt-2 nav_icon">
+			</i> <span class="nav_name">Stats</span> </a> 
+			
+			</div>
+            
+			</div> 
+			
+			<a href="process_data.php?logout=yes" class="nav_link"> 
+			<i class="bx bx-log-out nav_icon">
+			</i> <span class="nav_name">SignOut</span> </a>
+        </nav>';
 
 
 
-echo '<div class="navbar">
-
-  <a href="process_data.php?logout=yes">logout</a>
 
    
-    
-</div>';
  
 ?>
