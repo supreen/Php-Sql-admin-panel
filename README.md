@@ -1,4 +1,4 @@
-# php-admin-panel
+# PHP-SQL-admin-panel
 This is a simple PHP, Jquery, ajax admin panel for small softwares and website panels. it uses google captcha. it is depended on sql, [After Update, all data is kept in one file named database.php]
 For Admin panel without SQL, Please visit:
 <li>https://github.com/supreen/php-admin-panel</li>
