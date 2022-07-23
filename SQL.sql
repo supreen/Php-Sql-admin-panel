@@ -33,8 +33,10 @@ CREATE TABLE `control` (
   `user` text NOT NULL,
   `pass` text NOT NULL,
   `start` date NOT NULL,
-  `end` date NOT NULL
+  `end` date NOT NULL,
+  `id` int(11) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
 
 --
 -- Dumping data for table `control`
