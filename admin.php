@@ -1,15 +1,16 @@
   <meta name="facebook-domain-verification" content="5s2sz6zidizrjz18clcvivctxa4i71" />
-<meta property="og:title" content="SOBDAR | Whatsapp API">
-<meta property="og:description" content="Unoffical Whatsapp API from Sobdar Information Firm. This API can be used to connect Whatsapp Bot, Web Hooks, E-commerce, Management, or for the marketing purposes"><meta property="og:image" content="http://sobdar.com/assets/images/s.jpg">
+<meta property="og:title" content="Admin Panel">
+<meta property="og:description" content="admin demo"
+og:image" content="http://sobdar.com/assets/images/s.jpg">
 <meta property="og:image" content="http://sobdar.com/assets/images/s.jpg" />
 <meta property="og:image:secure_url" content="https://sobdar.com/assets/images/s.jpg" /> 
-<meta property="og:url" content="https://wa.sobdar.com/">
-<meta property="og:site_name" content="SOBDAR | crowfunding demo">
+<meta property="og:url" content="https://demoadmin.sobdar.com/">
+<meta property="og:site_name" content="Admin Panel">
 <meta property="og:video" content="#">
 <meta property="fb:admins" content="10217519215157586">
 <meta property="fb:app_id" content="2608171679211510">
 <meta property="og:type" content="website">
-<title>SOBDAR | Whatsapp API</title>
+<title>Admin Panel</title>
 
     <!-- Required Meta Tags -->
     <meta charset="utf-8">
@@ -17,7 +18,7 @@
  <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Unoffical Whatsapp API from Sobdar Information Firm. This API can be used to connect Whatsapp Bot, Web Hooks, E-commerce, Management, or for the marketing purposes">
+    <meta name="description" content="Admin Panel">
     <meta name="keywords" content="Whatsapp Api, Unoffical API, Unoffical, Whatsapp BOt, Whatsapp Management, Whatsapp Marketing, Whatsapp E-commerce, Whatsapp Web hooks, sobdar,supreen,suprin,suprin aziz,supreen talpur, web design, creative web, website, web developer, developer, designer, website maker, website creater, best website, best website developer, designing, coding, vb6, visual basic, wordpress, wordpress developer, joomla, joomla developer, id card creator, business card developer, graphic design, free lancer, professional web designer,Discord bot, Whatsapp bot, custom bot, messenger bot, twitter bot, custom bot, wordpress, joomla, website, AI, Machine learning, Deep learning, FAQ BOTS, Whatsapp API, API, Custom API, SObdar.com, sobdar it company, sobdar it, sobdar information technology, information technology, information technology company">
     <meta name="author" content="Suprin Aziz">
     
@@ -32,8 +33,8 @@
 <!-- Search Engine -->
 <meta name="image" content="https://sobdar.com/assets/images/logo.png">
 <!-- Schema.org for Google -->
-<meta itemprop="name" content="SOBDAR | Whatsapp API">
-<meta itemprop="description" content="Unoffical Whatsapp API from Sobdar Information Firm. This API can be used to connect Whatsapp Bot, Web Hooks, E-commerce, Management, or for the marketing purposes">
+<meta itemprop="name" content="Admin Panel">
+<meta itemprop="description" content="Admin panel">
 <meta itemprop="image" content="https://sobdar.com/assets/images/logo.png">
 <!-- Open Graph general (Facebook, Pinterest & Google+) -->
 
