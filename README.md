@@ -12,7 +12,15 @@ It is designed for beginners.
 <li>Get your google captcha sitekey and secret for your website from https://www.google.com/recaptcha/admin/create . make sure that it is "captcha v2" and "i am not robot" and put them in database.php.</li>
 <li>You are ready to go</li> 
 
-Thankyou 
+
+<h3> Updated 23/07/2022</h3>
+<li>Nav bar and index are now fully functional.</ui>
+<li>Change the files in the resources to give life to your dashboard.</ui>
+<li>Now to change add/delete and edit users in the "Settings" tab and you can view how it is done in resources/settings.php file.</ui>
+
+
+
+<h4>Thankyou</h4> 
 
 <h3>Consider buying me a coffee, if you loved my work.</h3>
 <li>https://www.buymeacoffee.com/suprin
