@@ -24,10 +24,12 @@ It is designed for beginners.
 
 <li>P.S this code uses complicated Javascripts and jquery to change the values in a blink of the eyes and without a refresh.
 Do not touch any file which has "_" into it or it can break the code. </li>
+<h3> Here is the demo </h3>
 
+<li>https://demoadmin.sobdar.com/</li>
 
 <h3>Consider buying me a coffee, if you loved my work.</h3>
-<li>https://www.buymeacoffee.com/suprin
+<li>https://www.buymeacoffee.com/suprin</li>
 
 <h3>If you are still finding it hard, Hire me</h3> 
 <li>https://www.fiverr.com/supreen</li>
