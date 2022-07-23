@@ -40,8 +40,8 @@ CREATE TABLE `control` (
 -- Dumping data for table `control`
 --
 
-INSERT INTO `control` (`user`, `pass`, `start`, `end`) VALUES
-('admin', 'password', '0000-00-00', '0000-00-00');
+INSERT INTO `control` (`user`, `pass`, `start`, `end`, `id`) VALUES
+('admin', 'password', '0000-00-00', '0000-00-00', '0');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

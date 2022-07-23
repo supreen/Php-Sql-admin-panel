@@ -69,7 +69,22 @@ if ($allowauthencity==1){
 <!--CSS resources-->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" type="text/css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" type="text/css">
-    
+    	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#tab-container").on("click", ".nav_link", function(){
+				var that = $(this);
+				var tabid = that.data("tab");
+				
+				$(".tab").each(function(k, v){
+					$(this).hide();
+				});
+				
+				$(tabid).show();
+			});
+		});
+	</script>
+
 <!--CSS-->
 
 <style>
@@ -82,6 +97,78 @@ if ($allowauthencity==1){
         <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
         <div class="header_img"> <img src="logo.gif" alt=""> </div>
     </header>
+	<div id="container">
+  
+
+
+  <div class="content">
+	<!--DASHBOARD -->
+		<div id="tab-dashboard" class="tab">
+		<div class="height-100 bg-light">
+        <h4>Dashboard</h4>
+        <?php
+		include 'resources/dashboard.php';
+		?>
+		</div>
+   		</div>
+			<!--/DASHBOARD -->
+
+
+	<!--law -->
+		<div id="tab-data" class="tab" style="display: none;">
+		<div class="height-100 bg-light">
+        <h4>Database</h4>
+        
+		<?php
+		include 'resources/data.php';
+		?>
+        </div>
+   		</div>
+		
+	<!--/law -->
+	
+	
+		
+	<!--advertisements -->
+
+		<div id="tab-ad" class="tab" style="display: none;">
+		<div class="height-100 bg-light">
+        <h4>Advertisements</h4>
+		<?php
+		include 'resources/ad.php';
+		?>
+        </div>
+   		</div>
+		
+	<!--/advertisements 
+	
+	<!--DASHBOARD -->
+		<div id="tab-tools" class="tab">
+		<div class="height-100 bg-light">
+        <h4>Tools</h4>
+        <?php
+		include 'resources/tools.php';
+		?>
+		</div>
+   		</div>
+			<!--/DASHBOARD -->
+
+		
+		<!--settings -->
+	
+		<div id="tab-settings" class="tab" style="display: none;">
+		<div class="height-100 bg-light">
+        <h4>Settings</h4>
+        <?php
+		include 'resources/settings.php';
+		?>
+		</div>
+   		</div>
+			<!--.settings -->
+
+		
+</div>
+
     <div class="l-navbar" id="nav-bar">
       <?php 
 //mavbar included
@@ -89,9 +176,7 @@ include 'navbar.php';
  ?> 
     </div>
     <!--Container Main start-->
-    <div class="height-100 bg-light">
-        <h4>Main Components</h4>
-    </div>
+
     <!--Container Main end-->
 	
 
